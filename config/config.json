@@ -1,0 +1,5 @@
+﻿{
+    "connectionString": "mongodb://0.0.0.0/cache_app",
+    "cacheLimit": 10,
+    "expiryHours": 1
+}

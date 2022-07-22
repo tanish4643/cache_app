@@ -1,0 +1,24 @@
+{
+  "name": "cache_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "Tanish",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.8.0",
+    "mongoose": "^6.4.6",
+    "rootpath": "^0.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
