@@ -114,7 +114,7 @@ async function removeCacheData(req) {
     const {key} = req.query;
 
     if(key){
-        await Cache.remove({ key });
+        await Cache.deleteOne({ key });
     }
     else await Cache.deleteMany({});
 
